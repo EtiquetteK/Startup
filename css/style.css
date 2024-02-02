@@ -1,0 +1,124 @@
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	line-height:1.5;
+	
+	background: URL('../image/bgpnature-1.png') no-repeat;
+	background-size:cover;
+}
+
+.container{
+	width:80%;
+	margin:auto;
+	overflow=hidden;
+}
+.button_1{
+	height:38px;
+	background:orange;
+	border:1;
+	padding-left:20px;
+	padding-right:20px;
+}
+header ul {
+	text-align:left;
+}
+header{
+	background:lime;
+	color:#ffffff;
+	padding-top:30px;
+	min-height:170px;
+	border-bottom:blue 5px solid;
+	border-top:blue 5px solid;
+	border-left:red 5px solid;
+	border-right:red 5px solid;
+	
+	}
+
+header ul li{
+	color:blue;
+	text-decoration:block;
+	text-transform:lowercase;
+	font-size:14px;
+	text-align:left;
+}
+
+ul li ul li{
+	display:none;
+}
+
+ul li:hover ul li{
+	display:block;
+}
+
+
+header ul{
+	margin:0;
+	padding:0;
+	font-size:14px;
+}
+
+header li{
+	float:left;
+	display:inline;
+	padding:0 20px 0 20px;
+}
+
+header #branding{
+	float:left;
+}
+
+header #branding h1{
+	margin:0;
+}
+
+header nav ul{
+	float:center;
+	margin-top:5px;
+	font-size:16px;
+}
+
+header a:hover{
+	color:blue;
+	font-weight:bold;
+}
+
+/*showcase*/
+#showcase{
+	min-height:400px;
+	max-width:800px;
+	width:80%;
+	background:url('../image/aeroplane.jpg')repeat-x;
+	float:right;
+	
+}
+
+#showcase h1{
+	font-size:18px;
+	color:red;
+	}
+#showcase p{
+	color:white;
+	font-size:20px;
+	}
+#newsletter  input[type="email"]{
+	height:30px;
+	width:250px;
+}
+
+/*Boxes*/
+#boxes{
+	margin-top:20px;
+}
+
+#boxes .box{
+	float:left;
+	width:30%;
+	text-align:centre;
+	padding:10px;
+}
+
+footer{
+	padding:20px;
+	margin-top:1500px;
+	
+}
